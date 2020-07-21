@@ -1,0 +1,51 @@
+#vantajs {
+    height: 100%;
+}
+
+@font-face {
+    font-family: Blanka;
+    src: url('Blanka-Regular.otf');
+}
+
+canvas {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Blanka;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 25;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.coverimg {
+    max-height: 50vh;
+    width: auto;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4));
+}
+
+.heading {
+    font-size: 85px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.description {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 15px;
+}
